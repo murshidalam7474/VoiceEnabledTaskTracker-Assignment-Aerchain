@@ -2,7 +2,7 @@
 
 A full-stack task management application inspired by Linear, featuring intelligent voice input that parses natural language to create tasks with structured fields (title, description, priority, due date, status).
 
-## 🎯 Features
+##  Features
 
 - **Voice Task Creation**: Speak naturally to create tasks - the system intelligently extracts task details
 - **Kanban Board View**: Drag-and-drop tasks between columns (To Do, In Progress, Done)
@@ -11,7 +11,7 @@ A full-stack task management application inspired by Linear, featuring intellige
 - **Filtering & Search**: Filter by status, priority, due date, or search by title/description
 - **Intelligent Parsing**: Uses AI to extract structured data from natural language
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 project/
@@ -20,7 +20,7 @@ project/
 └── README.md         # This file
 ```
 
-## 🧰 Project Setup
+##  Project Setup
 
 ### Prerequisites
 
@@ -29,6 +29,8 @@ project/
 - **API Keys**:
   - Deepgram API key (for speech-to-text)
   - OpenRouter API key (for text parsing)
+- **Note**:
+  -Rename the env file from **.env.example** to **.env** 
 
 ### Install steps
 
@@ -182,7 +184,7 @@ project/
   - `500 Internal Server Error` for unexpected parsing failures
   - `502 Bad Gateway` when the parser returns an invalid response
 
-## 🎨 User Flows
+##  User Flows
 
 ### Flow 1: Manual Task Creation
 1. Click "Add Task" button
@@ -230,10 +232,6 @@ project/
    - Proper HTTP methods and status codes
    - Consistent error responses
 
-5. **Email Flows**:
-   - Explicitly **excluded** from this implementation to keep scope focused on voice + UI interactions.
-   - All task creation and updates are done via the web app, not via inbound/outbound email.
-
 ### Assumptions
 
 1. **Single User**: No authentication required (as per assignment scope)
@@ -243,9 +241,6 @@ project/
    - Status defaults to "TO_DO"
    - Priority defaults to "MEDIUM"
    - Description is optional
-5. **Email**:
-   - No automatic notification or email-based task creation.
-   - Any email-based flows would require additional infrastructure and are assumed out of scope.
 
 ### Limitations
 
@@ -266,7 +261,7 @@ project/
      - Suggested improvements to UX flows (voice recording, modals, filters)
    - **Backend Usage**:
      - Used mainly for **ideation and small refactors**, especially around parsing prompts and error handling.
-     - Core backend logic, models, and routes were **implemented from scratch manually**.
+     - Core backend logic, models, and routes were **implemented manually(No AI Help in backend)**.
    - **Notable Prompts**:
      - "Design a clean React UI for a Linear-style task tracker with kanban style board and list views"
      - "Suggest a robust prompt for parsing natural language task descriptions into structured fields"
@@ -288,7 +283,7 @@ project/
 3. **Code Quality**: AI-assisted refactoring improved code organization
 4. **Prompt Engineering**: Iterative improvements to parsing prompts for better accuracy
 
-## 📝 Environment Variables
+##  Environment Variables
 
 ### Backend (.env)
 ```env
