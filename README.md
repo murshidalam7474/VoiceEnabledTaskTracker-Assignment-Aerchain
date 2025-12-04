@@ -50,9 +50,22 @@ project/
    ```env
    DATABASE_URL="postgresql://postgres:your_password@localhost:5432/voice_task_tracker"
    PORT=4000
-   DEEPGRAM_API_KEY="your-deepgram-api-key"
-   OPENROUTER_API_KEY="your-openrouter-api-key"
+   DEEPGRAM_API_KEY="f8923ab7babea7bee08e11fbba9bf683f980dec2"
+   OPENROUTER_API_KEY="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"
    ```
+   #### How to find your PostgreSQL URL parts (username, host, port)
+
+- **Username**:
+  - On local installs, this is often `postgres` (default superuser or postgres as a username).
+  - If you created a custom user, use that username instead.
+- **Password**:
+  - The password you set when installing PostgreSQL or creating the user.
+- **Host**:
+  - For local development this is usually `localhost` or `127.0.0.1`.
+- **Port**:
+  - Default PostgreSQL port is `5432` (unless you changed it during install).
+- **Database name**:
+  - In the example above we create `voice_task_tracker` with `CREATE DATABASE voice_task_tracker;`.
    
    Create database and run migrations:
    ```bash
@@ -289,7 +302,7 @@ project/
 ```env
 DATABASE_URL="postgresql://user:password@localhost:5432/database_name"
 PORT=4000
-DEEPGRAM_API_KEY="your-deepgram-api-key"
-OPENROUTER_API_KEY="your-openrouter-api-key"
+DEEPGRAM_API_KEY="f8923ab7babea7bee08e11fbba9bf683f980dec2"
+OPENROUTER_API_KEY="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"
 ```
 
