@@ -36,7 +36,7 @@ project/
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/murshidalam7474/VoiceEnabledTaskTracker-Assignment-Aerchain.git
    cd project
    ```
 
@@ -101,7 +101,7 @@ project/
 - There is **no mandatory seed data**; the app starts with an empty `Task` table.
 - The committed Prisma migration in `backend/prisma/migrations/20251203154651_init/` is used by Prisma to create the database schema.
 - Running `npx prisma migrate dev --name init` (or simply `npx prisma migrate dev` after pulling the code) will apply these migrations and create all required tables and enums.
-- You can optionally add your own seed script later (e.g., `prisma/seed.js`) if you want demo data; none is required to run the app.
+
 
 ## 📚 Tech Stack
 
