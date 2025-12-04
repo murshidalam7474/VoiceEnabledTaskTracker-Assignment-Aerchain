@@ -274,7 +274,7 @@ project/
      - Suggested improvements to UX flows (voice recording, modals, filters)
    - <span style="color:red;"><strong>Backend Usage (important):</strong></span>
      - <span style="color:red;">Used mainly for <strong>ideation and small refactors</strong>, especially around parsing prompts and error handling.</span>
-     - <span style="color:red;">Core backend logic, models, and routes were <strong>implemented from scratch manually</strong>.</span>
+     - <span style="color:red;">**I manually implemented all backend logic, models, and routes. The only area where I used AI assistance was in integrating the OpenRouter API for task parsing**.</strong>.</span>
    - **Notable Prompts**:
      - "Design a clean React UI for a Linear-style task tracker with kanban style board and list views"
      - "Suggest a robust prompt for parsing natural language task descriptions into structured fields using openrouter's Api"
