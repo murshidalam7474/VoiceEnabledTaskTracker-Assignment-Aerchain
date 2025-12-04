@@ -262,7 +262,7 @@ project/
 3. **Date Parsing**: Relative dates are interpreted based on server time
 4. **No Real-time Updates**: Changes require page refresh or manual state update
 
-## 🤖 AI Tools Usage
+##  AI Tools Usage
 
 ### Tools Used During Development
 
@@ -272,12 +272,12 @@ project/
      - Helped design and refine the React UI (layouts, components, styling)
      - Assisted with wiring API calls and handling loading/error states
      - Suggested improvements to UX flows (voice recording, modals, filters)
-   - **Backend Usage**:
-     - Used mainly for **ideation and small refactors**, especially around parsing prompts and error handling.
-     - Core backend logic, models, and routes were **implemented manually(No AI Help in backend)**.
+   - <span style="color:red;"><strong>Backend Usage (important):</strong></span>
+     - <span style="color:red;">Used mainly for <strong>ideation and small refactors</strong>, especially around parsing prompts and error handling.</span>
+     - <span style="color:red;">Core backend logic, models, and routes were <strong>implemented from scratch manually</strong>.</span>
    - **Notable Prompts**:
      - "Design a clean React UI for a Linear-style task tracker with kanban style board and list views"
-     - "Suggest a robust prompt for parsing natural language task descriptions into structured fields"
+     - "Suggest a robust prompt for parsing natural language task descriptions into structured fields using openrouter's Api"
      - "Help debug why a voice recording flow is failing in the browser"
 
 2. **OpenRouter** (Runtime)
