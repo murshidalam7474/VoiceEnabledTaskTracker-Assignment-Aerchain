@@ -2,6 +2,10 @@
 
 A full-stack task management application inspired by Linear, featuring intelligent voice input that parses natural language to create tasks with structured fields (title, description, priority, due date, status).
 
+## API_KEY
+- As openAI key in github is restricting and closing the api keys so the openrouter API key is in this document
+- https://docs.google.com/document/d/1YDebvwETOZKG4sheLZnC0tGW0qg2PfjAUVEa11Meoww/edit?usp=sharing
+
 ##  Features
 
 - **Voice Task Creation**: Speak naturally to create tasks - the system intelligently extracts task details
@@ -51,7 +55,7 @@ project/
    DATABASE_URL="postgresql://postgres:your_password@localhost:5432/voice_task_tracker"
    PORT=4000
    DEEPGRAM_API_KEY="f8923ab7babea7bee08e11fbba9bf683f980dec2"
-   OPENROUTER_API_KEY="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"
+   OPENROUTER_API_KEY=clicke here https://docs.google.com/document/d/1YDebvwETOZKG4sheLZnC0tGW0qg2PfjAUVEa11Meoww/edit?usp=sharing
    ```
    #### How to find your PostgreSQL URL parts (username, host, port)
 
@@ -303,6 +307,6 @@ project/
 DATABASE_URL="postgresql://user:password@localhost:5432/database_name"
 PORT=4000
 DEEPGRAM_API_KEY="f8923ab7babea7bee08e11fbba9bf683f980dec2"
-OPENROUTER_API_KEY="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"
+OPENROUTER_API_KEY=click here  https://docs.google.com/document/d/1YDebvwETOZKG4sheLZnC0tGW0qg2PfjAUVEa11Meoww/edit?usp=sharing
 ```
 
